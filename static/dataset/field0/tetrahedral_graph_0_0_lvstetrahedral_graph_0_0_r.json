@@ -1,0 +1,182 @@
+{
+    "lgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "RETURN",
+                "fx": "1.0798223734655473e-11",
+                "fy": "360.9389632713078"
+            },
+            {
+                "id": "1",
+                "labelName": "DECL",
+                "fx": "450.0",
+                "fy": "89.06103672868409"
+            },
+            {
+                "id": "2",
+                "labelName": "ENTRY",
+                "fx": "88.88825329509044",
+                "fy": "8.243405957841787e-12"
+            },
+            {
+                "id": "3",
+                "labelName": "ASSIGN",
+                "fx": "361.1117467048989",
+                "fy": "450.0"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "1",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "3",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "0",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "2",
+                "name": "DECL"
+            }
+        ]
+    },
+    "rgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "RETURN",
+                "fx": "1.0798223734655473e-11",
+                "fy": "360.9389632713078"
+            },
+            {
+                "id": "1",
+                "labelName": "DECL",
+                "fx": "450.0",
+                "fy": "89.06103672868409"
+            },
+            {
+                "id": "2",
+                "labelName": "ENTRY",
+                "fx": "88.88825329509044",
+                "fy": "8.243405957841787e-12"
+            },
+            {
+                "id": "3",
+                "labelName": "ASSIGN",
+                "fx": "361.1117467048989",
+                "fy": "450.0"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "1",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "3",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "0",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "2",
+                "name": "DECL"
+            }
+        ]
+    }
+}

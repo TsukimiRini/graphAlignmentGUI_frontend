@@ -1,0 +1,310 @@
+{
+    "lgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "ASSIGN",
+                "fx": "198.83149311026696",
+                "fy": "279.61442613315955"
+            },
+            {
+                "id": "2",
+                "labelName": "ASSIGN",
+                "fx": "22.945759597953916",
+                "fy": "299.20413034609203"
+            },
+            {
+                "id": "5",
+                "labelName": "CALL",
+                "fx": "299.9299299838854",
+                "fy": "126.25484454014257"
+            },
+            {
+                "id": "7",
+                "labelName": "DECL",
+                "fx": "329.0864044991361",
+                "fy": "320.7888888977367"
+            },
+            {
+                "id": "6",
+                "labelName": "DECL",
+                "fx": "21.945470274782593",
+                "fy": "168.4699479762602"
+            },
+            {
+                "id": "3",
+                "labelName": "RETURN",
+                "fx": "271.90970569958745",
+                "fy": "4.86803500604413"
+            },
+            {
+                "id": "4",
+                "labelName": "DECL",
+                "fx": "205.35123683438772",
+                "fy": "150.79972710056484"
+            },
+            {
+                "id": "1",
+                "labelName": "ENTRY",
+                "fx": "450.0",
+                "fy": "450.0"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "2",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "5",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "7",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "6",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "3",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "4",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "5",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "5",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "7",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "6",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "7",
+                "name": "CONTROL"
+            }
+        ]
+    },
+    "rgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "ASSIGN",
+                "fx": "198.83149311026696",
+                "fy": "283.0952488844344"
+            },
+            {
+                "id": "2",
+                "labelName": "ASSIGN",
+                "fx": "22.945759597953916",
+                "fy": "303.9334929602388"
+            },
+            {
+                "id": "5",
+                "labelName": "CALL",
+                "fx": "299.9299299838854",
+                "fy": "119.9613721366276"
+            },
+            {
+                "id": "7",
+                "labelName": "DECL",
+                "fx": "329.0864044991361",
+                "fy": "326.8939451512189"
+            },
+            {
+                "id": "1",
+                "labelName": "ENTRY",
+                "fx": "450.0",
+                "fy": "464.34026088871286"
+            },
+            {
+                "id": "6",
+                "labelName": "DECL",
+                "fx": "21.945470274782593",
+                "fy": "164.86703378038047"
+            },
+            {
+                "id": "3",
+                "labelName": "RETURN",
+                "fx": "271.90970569958745",
+                "fy": "-9.161964140437371"
+            },
+            {
+                "id": "4",
+                "labelName": "DECL",
+                "fx": "205.35123683438772",
+                "fy": "146.07061033882442"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "2",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "5",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "7",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "6",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "3",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "7",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "4",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "5",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "5",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "7",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "6",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "3",
+                "name": "DATA"
+            }
+        ]
+    }
+}

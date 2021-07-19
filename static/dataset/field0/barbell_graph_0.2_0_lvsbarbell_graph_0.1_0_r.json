@@ -1,0 +1,590 @@
+{
+    "lgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "CALL",
+                "fx": "416.3538055890706",
+                "fy": "500.6549554224145"
+            },
+            {
+                "id": "1",
+                "labelName": "RETURN",
+                "fx": "410.62151022327504",
+                "fy": "463.97001290391484"
+            },
+            {
+                "id": "2",
+                "labelName": "CALL",
+                "fx": "450.0",
+                "fy": "479.1597813828941"
+            },
+            {
+                "id": "3",
+                "labelName": "ENTRY",
+                "fx": "438.77306354118",
+                "fy": "444.090072197056"
+            },
+            {
+                "id": "4",
+                "labelName": "ENTRY",
+                "fx": "367.9869972441347",
+                "fy": "458.4095831837511"
+            },
+            {
+                "id": "6",
+                "labelName": "CALL",
+                "fx": "172.33402110642177",
+                "fy": "377.7072541111243"
+            },
+            {
+                "id": "8",
+                "labelName": "RETURN",
+                "fx": "73.48963455500501",
+                "fy": "224.996404231563"
+            },
+            {
+                "id": "9",
+                "labelName": "DECL",
+                "fx": "77.32510548136236",
+                "fy": "132.52938045506244"
+            },
+            {
+                "id": "10",
+                "labelName": "RETURN",
+                "fx": "104.65133976900057",
+                "fy": "38.317199547484044"
+            },
+            {
+                "id": "12",
+                "labelName": "CALL",
+                "fx": "140.69949783588285",
+                "fy": "-28.451172797775556"
+            },
+            {
+                "id": "13",
+                "labelName": "CONTROL",
+                "fx": "96.84352900481277",
+                "fy": "-29.263246646212433"
+            },
+            {
+                "id": "14",
+                "labelName": "ASSIGN",
+                "fx": "107.00113570767466",
+                "fy": "0.0"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "0",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "2",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "3",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "1",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "2",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "9",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "9",
+                "targetid": "8",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "9",
+                "targetid": "10",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "9",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "12",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "13",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "14",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "10",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "13",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "14",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "10",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "12",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "14",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "10",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "12",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "13",
+                "name": "CONTROL"
+            }
+        ]
+    },
+    "rgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "CALL",
+                "fx": "416.3538055890706",
+                "fy": "500.6549554224145"
+            },
+            {
+                "id": "1",
+                "labelName": "RETURN",
+                "fx": "410.62151022327504",
+                "fy": "463.97001290391484"
+            },
+            {
+                "id": "2",
+                "labelName": "CALL",
+                "fx": "450.0",
+                "fy": "479.1597813828941"
+            },
+            {
+                "id": "3",
+                "labelName": "ENTRY",
+                "fx": "438.77306354118",
+                "fy": "444.090072197056"
+            },
+            {
+                "id": "4",
+                "labelName": "ENTRY",
+                "fx": "367.9869972441347",
+                "fy": "458.4095831837511"
+            },
+            {
+                "id": "5",
+                "labelName": "RETURN",
+                "fx": "263.32027401237855",
+                "fy": "425.75156351531115"
+            },
+            {
+                "id": "6",
+                "labelName": "CALL",
+                "fx": "172.33402110642177",
+                "fy": "377.7072541111243"
+            },
+            {
+                "id": "7",
+                "labelName": "DECL",
+                "fx": "103.66487677997884",
+                "fy": "310.6310281557687"
+            },
+            {
+                "id": "8",
+                "labelName": "RETURN",
+                "fx": "73.48963455500501",
+                "fy": "224.996404231563"
+            },
+            {
+                "id": "10",
+                "labelName": "RETURN",
+                "fx": "104.65133976900057",
+                "fy": "38.317199547484044"
+            },
+            {
+                "id": "11",
+                "labelName": "ASSIGN",
+                "fx": "151.9352091498225",
+                "fy": "2.9307183501946494"
+            },
+            {
+                "id": "12",
+                "labelName": "CALL",
+                "fx": "140.69949783588285",
+                "fy": "-28.451172797775556"
+            },
+            {
+                "id": "13",
+                "labelName": "CONTROL",
+                "fx": "96.84352900481277",
+                "fy": "-29.263246646212433"
+            },
+            {
+                "id": "14",
+                "labelName": "ASSIGN",
+                "fx": "107.00113570767466",
+                "fy": "0.0"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "0",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "2",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "3",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "1",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "0",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "2",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "5",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "4",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "6",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "5",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "7",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "6",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "8",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "7",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "11",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "12",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "13",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "10",
+                "targetid": "14",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "11",
+                "targetid": "10",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "11",
+                "targetid": "12",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "11",
+                "targetid": "13",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "11",
+                "targetid": "14",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "10",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "11",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "13",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "12",
+                "targetid": "14",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "10",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "11",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "12",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "13",
+                "targetid": "14",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "10",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "11",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "12",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "14",
+                "targetid": "13",
+                "name": "CONTROL"
+            }
+        ]
+    }
+}

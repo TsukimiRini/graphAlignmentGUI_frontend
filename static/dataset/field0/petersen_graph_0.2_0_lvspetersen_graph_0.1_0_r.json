@@ -1,0 +1,326 @@
+{
+    "lgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "ENTRY",
+                "fx": "235.2147368459019",
+                "fy": "172.1891129251597"
+            },
+            {
+                "id": "1",
+                "labelName": "ENTRY",
+                "fx": "234.70368368623815",
+                "fy": "415.62037552772335"
+            },
+            {
+                "id": "5",
+                "labelName": "DECL",
+                "fx": "332.03547006977374",
+                "fy": "303.7674646239034"
+            },
+            {
+                "id": "2",
+                "labelName": "DECL",
+                "fx": "450.0",
+                "fy": "367.2254311809608"
+            },
+            {
+                "id": "6",
+                "labelName": "RETURN",
+                "fx": "21.135114558293708",
+                "fy": "235.0844868610425"
+            },
+            {
+                "id": "8",
+                "labelName": "ENTRY",
+                "fx": "50.13546795243977",
+                "fy": "430.84558007022554"
+            },
+            {
+                "id": "3",
+                "labelName": "ENTRY",
+                "fx": "152.2719694892986",
+                "fy": "294.15649686679023"
+            },
+            {
+                "id": "9",
+                "labelName": "CONTROL",
+                "fx": "227.96627876525218",
+                "fy": "0.0"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "5",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "6",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "5",
+                "targetid": "8",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "1",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "8",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "9",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "5",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "6",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "3",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "8",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "9",
+                "targetid": "6",
+                "name": "CONTROL"
+            }
+        ]
+    },
+    "rgraph": {
+        "nodes": [
+            {
+                "id": "0",
+                "labelName": "ENTRY",
+                "fx": "234.0135581370772",
+                "fy": "161.265872673037"
+            },
+            {
+                "id": "1",
+                "labelName": "ENTRY",
+                "fx": "233.56260110947503",
+                "fy": "391.0845139574294"
+            },
+            {
+                "id": "4",
+                "labelName": "ASSIGN",
+                "fx": "85.185197277116",
+                "fy": "39.19693960461288"
+            },
+            {
+                "id": "2",
+                "labelName": "DECL",
+                "fx": "423.5416375808069",
+                "fy": "345.3958039869064"
+            },
+            {
+                "id": "6",
+                "labelName": "RETURN",
+                "fx": "45.10814132968909",
+                "fy": "220.6441514794755"
+            },
+            {
+                "id": "3",
+                "labelName": "ENTRY",
+                "fx": "160.8242565527932",
+                "fy": "276.4128680046964"
+            },
+            {
+                "id": "9",
+                "labelName": "CONTROL",
+                "fx": "227.6174659714415",
+                "fy": "-1.2944638809100733"
+            },
+            {
+                "id": "7",
+                "labelName": "RETURN",
+                "fx": "450.0",
+                "fy": "126.34959306818206"
+            },
+            {
+                "id": "8",
+                "labelName": "ENTRY",
+                "fx": "70.69826423322628",
+                "fy": "405.45832849474914"
+            }
+        ],
+        "edges": [
+            {
+                "sourceid": "0",
+                "targetid": "1",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "0",
+                "targetid": "4",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "2",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "1",
+                "targetid": "6",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "0",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "3",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "4",
+                "targetid": "9",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "1",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "3",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "2",
+                "targetid": "7",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "1",
+                "name": "DECL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "9",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "6",
+                "targetid": "8",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "4",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "3",
+                "targetid": "8",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "9",
+                "targetid": "4",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "9",
+                "targetid": "6",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "9",
+                "targetid": "7",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "2",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "7",
+                "targetid": "9",
+                "name": "DATA"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "6",
+                "name": "CONTROL"
+            },
+            {
+                "sourceid": "8",
+                "targetid": "3",
+                "name": "DECL"
+            }
+        ]
+    }
+}
